@@ -3,8 +3,8 @@
       package="com.example"
       android:versionCode="1"
       android:versionName="1.0">
-    <application android:label="mWaste" android:icon="@drawable/icon">
-        <activity android:name=".MainActivity"
+    <application android:label="mWaste" android:icon="@drawable/icon" android:theme="@style/MyText" >
+        <activity android:name="com.randomaxis.mwaste.MainActivity"
                   android:label="@string/app_name"
                 >
             <intent-filter>
@@ -13,6 +13,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MeterActivity" />
+        <activity android:name="com.randomaxis.mwaste.MeterActivity" />
     </application>
 </manifest> 
